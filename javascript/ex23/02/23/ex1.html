@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Incorporando Javascript em Páginas HTML</title>
+	
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="exibe_resultado"> Resultado da Multiplicação:  </div>
+</body>
+	
+	<script type="text/javascript">
+		
+		var variavel;  
+      
+		var num1 = prompt('Digite um número inteiro para ser o dividendo.')
+		 
+        var num2 = prompt('Digite outro número inteiro para ser o divisor.')
+        
+		var resultadoDivisao = dividir(num1, num2); 
+		
+        alert('O resultado da divisão é: ' + resultadoDivisao)
+		
+		function dividir(num1, num2){
+     
+			
+			var resultado = num1 / num2; 
+      
+			return resultado;
+     
+		}
+	</script>
+</html>
